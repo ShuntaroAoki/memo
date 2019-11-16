@@ -1,0 +1,24 @@
+# Anaconda
+
+- Anaconda の情報表示
+    - `$ conda info`
+- 環境の作成
+    - `$ conda create -n <env> python`
+    - `$ conda create -n <env> numpy scipy`
+    - `$ conda create -n <env> anaconda`
+    - `$ conda create -n <env> python==3.7`
+    - `$ conda create -n <env> --clone <source_env>`
+- 環境の削除
+    - `$ conda remove -n <env> --all`
+- 環境の一覧表示
+    - `$ conda info --envs`
+    - `$ conda info -e`
+- 環境の切り替え
+    - `$ source activate <env>`
+    - `$ source deactivate`
+- パッケージのインストール・アップデート・アンインストール
+    - `$ conda install -n <env> <package>`
+    - `$ conda install -n <env> <package>==<version>`
+	- `$ conda install -n <env> <package> --channel conda-forge`
+    - `$ conda update -n <env> <package>`
+    - `$ conda uninstall -n <env> <package>`
