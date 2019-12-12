@@ -18,7 +18,8 @@
     - `$ source deactivate`
 - パッケージのインストール・アップデート・アンインストール
     - `$ conda install -n <env> <package>`
-    - `$ conda install -n <env> <package>==<version>`
-	- `$ conda install -n <env> <package> --channel conda-forge`
+    - `$ conda install -n <env> <package>=<version>`
+    - `$ conda install -n <env> <package>=<version>=<build>`
+    - `$ conda install -n <env> <package> --channel conda-forge`
     - `$ conda update -n <env> <package>`
     - `$ conda uninstall -n <env> <package>`
