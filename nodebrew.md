@@ -3,7 +3,7 @@
 ## インストール
 
 ```shellsession
-$ homebrew install nodebrew
+$ brew install nodebrew
 $ nodebrew setup
 ```
 
