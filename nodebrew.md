@@ -2,6 +2,8 @@
 
 ## インストール
 
+Mac なら homebrew でインストールできる．
+
 ```shellsession
 $ brew install nodebrew
 $ nodebrew setup
