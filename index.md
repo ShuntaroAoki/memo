@@ -1,0 +1,13 @@
+- Linux
+  - [yum](yum.md)
+- Mac
+  - [Homebrew](homebrew.md)
+- [Windows](windows.md)
+- [Python](python.md)
+  - [Anaconda](anaconda.md)
+- JavaScript
+  - [Nodebrew](nodebrew.md)
+  - [npm](npm.md)
+- [dd](dd.md)
+- [ffmpeg](ffmpeg.md)
+- [ImageMagick](imagemagick.md)
