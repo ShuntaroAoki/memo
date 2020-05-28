@@ -11,3 +11,4 @@
 - [dd](dd.md)
 - [ffmpeg](ffmpeg.md)
 - [ImageMagick](imagemagick.md)
+- [雑多なメモ](misc.md)
