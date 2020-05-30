@@ -1,28 +1,21 @@
 # yum
 
-- パッケージのインストール
-    - `# yum install <package>`
-- パッケージのアップデート
-    - `# yum update <package>`
-    - `# yum update`
-        - アップデート可能なパッケージをすべてアップデートする
-- パッケージのアンインストール
-    - `# yum remove <package>`
-- パッケージの検索
-    - `# yum search <hoge>`
-- パッケージの情報を表示する
-    - `# yum info <package>`
-- パッケージの依存関係を表示する
-    - `# yum deplist <package>`
-- インストール済みパッケージの一覧表示
-    - `# yum list installed`
-- アップデートのあるパッケージの一覧表示
-    - `# yum list updates`
-- パッケージリポジトリの一覧を表示する
-    - `# yum repolist`
-    - `# yum repolist all` (disabled なリポジトリも表示する)
-- パッケージリポジトリの情報を表示する
-    - `# yum repoinfo <repository>`
+## コマンド
+
+| 機能 | コマンド |
+|:--|:--|
+| パッケージのインストール | `# yum install <package>` |
+| パッケージのインストール | `# yum update <package>` |
+| アップデート可能なパッケージのすべてアップデート | `# yum update` |
+| パッケージのアンインストール | `# yum remove <package>` |
+| パッケージの検索 | `# yum search <hoge>` |
+| パッケージの情報を表示する | `# yum info <package>` |
+| パッケージの依存関係を表示する | `# yum deplist <package>` |
+| インストール済みパッケージの一覧表示 | `# yum list installed` |
+| アップデートのあるパッケージの一覧表示 | `# yum list updates` |
+| パッケージリポジトリの一覧を表示する | `# yum repolist` |
+| パッケージリポジトリの一覧を表示する (disabled なリポジトリも表示する) | `# yum repolist all` |
+| パッケージリポジトリの情報を表示する | `# yum repoinfo <repository>` |
 
 ## References
 
