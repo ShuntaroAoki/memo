@@ -8,6 +8,7 @@
     - `$ conda create -n <env> anaconda`
     - `$ conda create -n <env> python=3.7`
     - `$ conda create -n <env> --clone <source_env>`
+    - `$ conda create -n <env> -f env.yaml`
 - 環境の削除
     - `$ conda remove -n <env> --all`
 - 環境の一覧表示
