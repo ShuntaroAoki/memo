@@ -1,40 +1,29 @@
 # Homebrew
 
-- Homebrew のインストール
-    - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- Formula のインストール
-    - `$ brew install <formula>`
-- Formula のアップデート
-    - `$ brew upgrade <formula>`
-    - `$ brew upgrade`
-        - 更新のある formula をすべてアップデートする
-- Formula のアンインストール
-    - `$ brew uninstall <formula>`
-- 検索
-    - `$ brew search text`
-    - `$ brew search /text/` (正規表現検索)
-- Formula の情報表示
-    - `$ brew info <formula>`
-- Formula の依存関係の表示
-    - `$ brew deps <formula>`
-- インストール済み formula の一覧表示
-    - `$ brew list`
-- 更新のある formula の一覧表示
-    - `$ brew outdated`
-- Outdated な formula の削除
-    - `$ brew cleanup`
-    - `$ brew cleanup -n` (dry run)
-- Homebrew のアップデート
-    - `$ brew update`
-- Tap (リポジトリ) の一覧表示
-    - `$ brew tap`
-- Tap (リポジトリ) の追加
-    - `$ brew tap <user/repo>`
-    - `$ brew tap <user/repo> <URL>`
-- Tap (リポジトリ) の削除
-    - `$ brew untap <user/repo>`
-- Homebrew の診断
-    - `$ brew doctor`
+## Homebrew のインストール
+
+    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+## コマンド
+
+| 機能 | コマンド |
+|:--|:--|
+| Formula のインストール | `$ brew install <formula>` |
+| Formula のアップデート | `$ brew upgrade <formula>` |
+| 更新のある formula をすべてアップデートする | `$ brew upgrade` |
+| Formula のアンインストール | `$ brew uninstall <formula>` |
+| 検索 | `$ brew search text` |
+| 検索 (正規表現検索) | `$ brew search /text/` |
+| Formula の情報表示 | `$ brew info <formula>` |
+| Formula の依存関係の表示 |  `$ brew deps <formula>` |
+| インストール済み formula の一覧表示 | `$ brew list` |
+| 更新のある formula の一覧表示 | `$ brew outdated` |
+| Outdated な formula の削除 | `$ brew cleanup`<br>`$ brew cleanup -n` (dry run) |
+| Homebrew のアップデート | `$ brew update` |
+| Tap (リポジトリ) の一覧表示 | `$ brew tap` |
+| Tap (リポジトリ) の追加 | `$ brew tap <user/repo>`<br>`$ brew tap <user/repo> <URL>` |
+| Tap (リポジトリ) の削除 | `$ brew untap <user/repo>` |
+| Homebrew の診断 | `$ brew doctor` |
 
 ## References
 
