@@ -5,6 +5,9 @@
 - [Windows](windows.md)
 - [Python](python.md)
   - [Anaconda](anaconda.md)
+  - [pip](pip.md)
+  - [pyenv](pyenv.md)
+  - [pipenv](pipenv.md)
 - JavaScript
   - [Nodebrew](nodebrew.md)
   - [npm](npm.md)
