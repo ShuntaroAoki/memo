@@ -11,6 +11,7 @@
 - JavaScript
   - [Nodebrew](nodebrew.md)
   - [npm](npm.md)
+- [Julia](julia.md)
 - [dd](dd.md)
 - [ffmpeg](ffmpeg.md)
 - [ImageMagick](imagemagick.md)
