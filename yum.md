@@ -11,11 +11,13 @@
 | パッケージの検索 | `# yum search <hoge>` |
 | パッケージの情報を表示する | `# yum info <package>` |
 | パッケージの依存関係を表示する | `# yum deplist <package>` |
+| ファイルを含むパッケージを表示する | `# yum provides <file>` |
 | インストール済みパッケージの一覧表示 | `# yum list installed` |
 | アップデートのあるパッケージの一覧表示 | `# yum list updates` |
 | パッケージリポジトリの一覧を表示する | `# yum repolist` |
 | パッケージリポジトリの一覧を表示する (disabled なリポジトリも表示する) | `# yum repolist all` |
 | パッケージリポジトリの情報を表示する | `# yum repoinfo <repository>` |
+| キャッシュ (rpm ファイル、ヘッダファイルなど) を削除する | `# yum clean all` |
 
 ## References
 
