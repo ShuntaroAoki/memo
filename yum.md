@@ -22,4 +22,4 @@
 ## References
 
 - [YUM コマンドチートシート (pdf)](https://access.redhat.com/sites/default/files/attachments/rh_yum_cheatsheet_1214_jcs_print-ja.pdf)
-- [yumコマンドの基本操作とリポジトリの追加・削除方法のまとめ | 己で解決！泣かぬなら己で鳴こうホトトギス](https://onoredekaiketsu.com/yum-command-and-repository/)
+- [yumコマンドの基本操作とリポジトリの追加・削除方法のまとめ \| 己で解決！泣かぬなら己で鳴こうホトトギス](https://onoredekaiketsu.com/yum-command-and-repository/)
