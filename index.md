@@ -12,6 +12,8 @@
   - [Nodebrew](nodebrew.md)
   - [npm](npm.md)
 - [Julia](julia.md)
+- [Docker](docker.md)
+- [Kubernetes](kubernetes.md)
 - [dd](dd.md)
 - [ffmpeg](ffmpeg.md)
 - [ImageMagick](imagemagick.md)
