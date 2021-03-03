@@ -32,6 +32,12 @@ $ convert +append images_*.jpg images_all.jpg  # 横に結合
 $ convert -append images_*.jpg images_all.jpg  # 縦に結合
 ```
 
+## RGB -> RGBA
+
+``` shellsession
+$ convert rgb.png -define png:color-type=6 rgba.png
+```
+
 ## GIF アニメを作成する
 
 ``` shellsession
