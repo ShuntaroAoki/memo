@@ -14,6 +14,17 @@ $ convert -geometry 1000x500 hoge.png hoge_resize.png
 $ convert -geometry 50% hoge.png hoge_resize.png
 ```
 
+``` shellsession
+$ convert -resize 256x256 input.png output.png   # 縦横比を維持し、指定サイズに収まるようにリサイズ
+$ convert -resize 256x256! input.png output.png  # 縦横比を無視してリサイズ
+```
+
+複数画像を一括変換:
+
+``` shellsession
+$ mogrify -resize 1920x1080 *.png
+```
+
 ## 画像の結合
 
 ``` shellsession
